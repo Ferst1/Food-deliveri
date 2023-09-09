@@ -55,6 +55,7 @@
 .nav-flex {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -62,16 +63,13 @@
 
 @media (min-width:767.98px) {
   .menu-thumb {
-    position: absolute;
+    /* position: absolute; */
   }
 
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
-  .header {
-    min-width: 768px;
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .menu-thumb {
@@ -92,5 +90,18 @@
 
   .mob-menu {
     display: none;
+  }
+
+
+  .nav-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: initial;
   }
 }

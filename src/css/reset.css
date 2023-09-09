@@ -41,7 +41,6 @@ button {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 
@@ -50,17 +49,17 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--bg-color);
-  padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
+  padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1310 - 320)));
 }
 
 .block__body {
-  padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
+  padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1310 - 320)));
 }
 
 .block__title {
-  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1600 - 320)));
+  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1310 - 320)));
   line-height: 130%;
-  margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1600 - 320)));
+  margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1310 - 320)));
 }
 
 .block__text {
