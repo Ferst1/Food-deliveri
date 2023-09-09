@@ -23,6 +23,7 @@
 .header-flex {
   width: 100%;
   display: flex;
+  flex-direction: column;
 
 }
 
@@ -48,4 +49,10 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.nav-flex{
+  display: flex;
+  justify-content: space-between;
+  
 }
