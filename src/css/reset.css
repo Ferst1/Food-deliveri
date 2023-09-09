@@ -50,10 +50,25 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--bg-color);
-  padding: calc(20px +(50-20)+(100vw-320px)/(1600-320));
+  padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
 }
 
-.container{
+.block__body {
+  padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.block__title {
+  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1600 - 320)));
+  line-height: 130%;
+  margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.block__text {
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1600 - 320)));
+  line-height: 150%;
+}
+
+.container {
   padding: 0px 15px;
   margin: 0px auto;
 }
@@ -104,6 +119,7 @@ body {
   border-radius: 30px;
   border: 2px solid var(--dark-green, #7EB101);
 }
+
 .btn_offering {
   background-color: var(--bg-color);
   color: var(--main-color);
@@ -117,7 +133,7 @@ body {
   background-color: var(--accent-color);
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
   background-color: var(--accent-color)
 }
 
@@ -130,6 +146,7 @@ body {
     :root {
       --container-width: 768px;
     }
+
     .container {
       padding-left: 32px;
       padding-right: 32px;

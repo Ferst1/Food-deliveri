@@ -37,6 +37,7 @@
 .logo:hover {
   animation: rotate 1s linear infinite;
 }
+
 .logo_footer:hover {
   animation: rotate 1s linear infinite;
 }
@@ -51,8 +52,45 @@
   }
 }
 
-.nav-flex{
+.nav-flex {
   display: flex;
   justify-content: space-between;
-  
+
+}
+
+/* --------------------------------------------------- */
+
+@media (min-width:767.98px) {
+  .menu-thumb {
+    position: absolute;
+  }
+
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header {
+    min-width: 768px;
+  }
+
+  .menu-thumb {
+    display: none;
+  }
+
+  .icon_hamburger {
+    display: contents;
+  }
+
+  .nav-item,
+  .nav-btn {
+    display: block;
+    margin-left: 30px;
+
+  }
+
+
+  .mob-menu {
+    display: none;
+  }
 }

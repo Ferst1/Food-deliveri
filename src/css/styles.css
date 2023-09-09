@@ -1,4 +1,3 @@
-
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -11,95 +10,15 @@
 
 
 :root {
-    --bg-color: #fefefe;
-    --second-bg-color: #ffe550;
-    --main-color: #2c2c2c;
-    --accent-color: #bbf330;
-    --extra-color: #7eb101;
-    --form-text: #505050;
-  }
-  
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-  }
-  
-  p:last-child {
-    margin-bottom: 0;
-  }
-  
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  a {
-    color: currentColor;
-    text-decoration: none;
-  }
-  
-  button {
-    cursor: pointer;
-    border: none;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* ---------------general------------ */
-  
-  body {
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    background-color: var(--bg-color);
-  }
-  
-  
-  
-  
-  .list {
-    list-style: none;
-  }
-  
-  .link {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .link:hover,
-  .link:focus {
-    color: var(--accent-color);
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 1280px;
-  }
-  
-  
-  .no-scroll {
-    overflow: hidden;
-  }
-  
-  .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-  }
+  --bg-color: #fefefe;
+  --second-bg-color: #ffe550;
+  --main-color: #2c2c2c;
+  --accent-color: #bbf330;
+  --extra-color: #7eb101;
+  --form-text: #505050;
+}
+
+
+
+
+/* ---------------general------------ */
