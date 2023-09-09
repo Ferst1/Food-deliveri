@@ -1,0 +1,14 @@
+.slider-img {
+    display: none;
+  }
+  
+  .modal-overlay .modal {
+    width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(100%);
+  }
+  
