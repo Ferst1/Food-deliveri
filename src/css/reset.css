@@ -99,4 +99,24 @@ body {
 
 .btn {
   cursor: pointer;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  border-radius: 30px;
+  border: 2px solid var(--dark-green, #7EB101);
+}
+.btn_offering {
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  border-radius: 30px;
+  border: 2px solid var(--dark-green, #7EB101);
+
+}
+
+
+.btn.nav-btn:focus {
+  background-color: var(--accent-color);
+}
+
+.nav-btn:hover{
+  background-color: var(--accent-color)
 }
