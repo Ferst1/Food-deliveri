@@ -49,11 +49,14 @@ img {
 
 body {
   font-family: "Roboto", sans-serif;
-  line-height: 1.5;
   background-color: var(--bg-color);
+  padding: calc(20px +(50-20)+(100vw-320px)/(1600-320));
 }
 
-
+.container{
+  padding: 0px 15px;
+  margin: 0px auto;
+}
 
 
 .list {
@@ -76,9 +79,9 @@ body {
 }
 
 
-.no-scroll {
+/* .no-scroll {
   overflow: hidden;
-}
+} */
 
 .visually-hidden {
   position: absolute;
@@ -91,4 +94,9 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+
+.btn {
+  cursor: pointer;
 }
