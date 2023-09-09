@@ -1,13 +1,43 @@
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="container header-flex">
+    <a
+      ><img
+        class="logo"
+        src="../img/desktop_img/logo.svg"
+        alt="logo"
+        width="66px"
+        height="52px"
+      />
+      <div class="nav-flex">
+        <button
+          class="menu-open js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="icon_hamburger" width="32" height="22">
+            <use href="../img/sprite.svg##menu-hamburger"></use>
+          </svg>
+        </button>
+        <nav class="nav">
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="link current" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item"><a class="link" href="#About">About</a></li>
+            <li class="nav-item">
+              <a class="link" href="#Service">Service</a>
+            </li>
+            <li class="nav-item"><a class="link" href="#Menu">Menu</a></li>
+            <li class="nav-item">
+              <a class="link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+          <button class="nav-btn btn" type="button" data-modal-open>
+            Order Now
+          </button>
+        </nav>
+      </div>
+    </a>
+  </div>
 </header>
