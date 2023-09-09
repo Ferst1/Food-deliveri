@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+.nav {
+  display: none;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .icon_hamburger>use {
   stroke: #7EB101;
 }
