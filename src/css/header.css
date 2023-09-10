@@ -5,6 +5,7 @@
 
 .nav {
   display: none;
+  position: absolute;
 }
 
 .header-flex {
