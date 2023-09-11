@@ -120,9 +120,13 @@
 @media (min-width:767.98px) {
 
   .offering-apfel {
-    background-image: url(./img/tablet_img/bg-768.png);
+    background-image: url(../img/tablet_img/bg-768.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: auto;
+    min-width: 768px;
+    min-height: 1140px;
   }
 
   .img_offering {
