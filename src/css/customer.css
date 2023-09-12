@@ -1,0 +1,160 @@
+.customer_block {
+
+  display: flex;
+  padding-bottom: 17px;
+
+}
+
+.castomersay_title {
+  padding-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.customersay {
+  background-image: url(/img/mobile_img/bg-mobile2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 769px;
+  padding-bottom: 32px;
+  padding-top: 60px;
+
+}
+
+.castomer_feedback {
+  background-color: #fff;
+  display: block;
+  border-radius: 0 10px 10px 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+}
+
+.castomer_name {
+
+  padding-left: 16px;
+}
+
+.costomer_title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 8px;
+  position: relative;
+  padding-bottom: 44px;
+
+}
+
+.costomer_title::before {
+  content: "*****";
+  color: var(--second-bg-color);
+  display: block;
+
+}
+
+.star {
+  stroke: var(--second-bg-color);
+}
+
+@media (min-width:768px) {
+  .customer-tablet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 44px;
+    max-height: 244px;
+  }
+
+  .customersay {
+    background-image: url(./img/tablet_img/bg2-768.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .castomersay_title {
+    font-size: 42px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  /* ----------------------------------------- */
+
+  .customer-tablet {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .castomer_feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 227px;
+  }
+
+  .customer_block {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+  }
+
+  .castomer_name {
+    margin-left: 16px;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:1280px) {
+
+  .mobile-banan {
+
+    width: 80%;
+  }
+
+}
+
+@media screen and (min-width:1280px) {
+
+  .customersay {
+    background-image: url(./img/desktop_img/bg21280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 647px;
+  }
+
+  .customer-tablet {
+    /* display: flex;
+    align-items: center;
+
+  } */
+
+    /* .castomer_feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 227px;
+  } */
+
+    .customer_block {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 16px;
+
+    }
+
+    .castomer_name {
+      margin-left: 16px;
+    }
+
+    .costomer_title {
+      font-size: 18px;
+      font-weight: 700;
+      padding-bottom: 44px;
+    }
+  }
+}

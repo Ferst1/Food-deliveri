@@ -26,14 +26,15 @@
 }
 
 .btn_offering {
+  padding: 10px 22px;
   background-color: var(--bg-color);
   color: var(--main-color);
   border-radius: 30px;
   border: 2px solid var(--dark-green, #7EB101);
-
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
 }
-
-
 
 .offering-icon {
   border-radius: 50%;
