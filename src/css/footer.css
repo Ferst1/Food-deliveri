@@ -21,7 +21,6 @@
 
 .footer-sbscrb-input:hover,
 .footer-sbscrb-input:focus {
-
   border-color: #bbf330;
 }
 
@@ -69,6 +68,7 @@
   font-weight: 400;
   display: flex;
   justify-content: center;
+  padding-bottom: 60px;
 }
 
 .footer-link-list-element {
@@ -109,7 +109,7 @@
   padding-bottom: 40px;
 }
 
-.footer-sbscrb-btn {}
+
 
 /* -----MOdal Overlay */
 
