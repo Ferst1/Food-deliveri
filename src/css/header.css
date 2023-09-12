@@ -122,21 +122,6 @@
     min-width: 767.98px;
   }
 
-
-
-  .header-flex {
-    min-width: 768px;
-    width: 100%;
-    display: flex;
-  }
-
-
-  .nav {
-    display: inherit;
-    justify-content: center;
-    align-items: center;
-  }
-
   .menu-thumb {
     display: none;
   }
@@ -149,24 +134,22 @@
   .nav-btn {
     display: block;
     margin-left: 30px;
-
   }
-
 
   .mob-menu {
     display: none;
   }
 
-
-  .nav-flex {
-    display: flex;
-    align-items: center;
+  .nav-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    width: 98px;
+    min-height: 32px;
+    background-color: var(--accent-color);
+    border-style: none;
+    border-radius: 30px;
   }
 
-  .header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: initial;
-  }
 }
