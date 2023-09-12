@@ -1,81 +1,97 @@
 <footer class="footer">
-    <div class="container footer">
-      <div class="footer-top-conteiner">
-        <div class="footer-nav-logo">
-          <a class="logo_footer" href="#"><img src="images/desktop_img/logo.svg" alt="logo" width="66px" height="52px"></a>
-          <ul class="list footer-nav-list">
-            <li><a href="#" class="link footer-nav-list-element">Home</a></li>
-            <li><a href="#" class="link footer-nav-list-element">About</a></li>
-            <li><a href="#" class="link footer-nav-list-element">Service</a></li>
-            <li><a href="#" class="link footer-nav-list-element">Menu</a></li>
-            <li><a href="#" class="link footer-nav-list-element">Contact</a></li>
-          </ul>
-        </div>
-        <div class="container footer-sbscrb-wrap">
-          <div class="input-button">
-            <p class="footer-sbscrb-form-titel">Subscribe</p>
-            <form class="footer-sbscrb-form">
-              <input
-                class="footer-sbscrb-input"
-                type="email"
-                name="input-email"
-                id="sbscrb-email"
-                placeholder="Enter your email">
-              <button type="submit" class="footer-sbscrb-btn" data-modal-open>Subscribe</button>
-            </form>
-            <p class="footer-sbscrb-policy">By subscribing you agree to with our <span><a href="#" class="footer-sbscrb-policy-link">Privacy Policy</a></span></p>
-          </div>
+  <div class="container footer">
+    <div class="footer-top-conteiner">
+      <div class="footer-nav-logo">
+        <a class="logo_footer" href="#"
+          ><img
+            src="./img/desktop_img/logo.svg"
+            alt="logo"
+            width="66px"
+            height="52px"
+        /></a>
+        <ul class="list footer-nav-list">
+          <li><a href="#" class="link footer-nav-list-element">Home</a></li>
+          <li><a href="#" class="link footer-nav-list-element">About</a></li>
+          <li><a href="#" class="link footer-nav-list-element">Service</a></li>
+          <li><a href="#" class="link footer-nav-list-element">Menu</a></li>
+          <li><a href="#" class="link footer-nav-list-element">Contact</a></li>
+        </ul>
+      </div>
+      <div class="container footer-sbscrb-wrap">
+        <div class="input-button">
+          <p class="footer-sbscrb-form-titel">Subscribe</p>
+          <form class="footer-sbscrb-form">
+            <input
+              class="footer-sbscrb-input"
+              type="email"
+              name="input-email"
+              id="sbscrb-email"
+              placeholder="Enter your email"
+            />
+            <button type="submit" class="footer-sbscrb-btn" data-modal-open>
+              Subscribe
+            </button>
+          </form>
+          <p class="footer-sbscrb-policy">
+            By subscribing you agree to with our
+            <span
+              ><a href="#" class="footer-sbscrb-policy-link"
+                >Privacy Policy</a
+              ></span
+            >
+          </p>
         </div>
       </div>
     </div>
-    <div class="container footer-bottom-conteiner">
-      <ul class="list footer-link-list">
-        <li><a href="#" class="footer-link-list-element">Privacy Policy</a></li>
-        <li><a href="#" class="footer-link-list-element">Terms of Service</a></li>
-        <li><a href="#" class="footer-link-list-element">Cookies Settings</a></li>
-      </ul>
-      <p class="footer-authority-inf">2022 FoodSta. All right reserved.</p>
+  </div>
+  <div class="container footer-bottom-conteiner">
+    <ul class="list footer-link-list">
+      <li><a href="#" class="footer-link-list-element">Privacy Policy</a></li>
+      <li><a href="#" class="footer-link-list-element">Terms of Service</a></li>
+      <li><a href="#" class="footer-link-list-element">Cookies Settings</a></li>
+    </ul>
+    <p class="footer-authority-inf">2022 FoodSta. All right reserved.</p>
+  </div>
+
+  <!-- MODAL Overlay -->
+  <div class="modal-overlay" data-modal>
+    <div class="modal">
+      <form class="modal-form">
+        <p class="paragraph-modal">Order Form</p>
+        <div class="thumb-form">
+          <label for="modal-form-name">Name</label>
+          <div class="input-icon">
+            <input id="modal-form-name" type="text" />
+            <svg class="icon" width="18" height="18">
+              <use href="./img/sprite.svg#icon-person"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="thumb-form">
+          <label for="modal-form-phone">Phone</label>
+          <div class="input-icon">
+            <input id="modal-form-phone" type="tel" />
+            <svg class="icon" width="18" height="24">
+              <use href="./img/sprite.svg#icon-phone"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="thumb-form">
+          <label for="modal-form-email">Email</label>
+          <div class="input-icon">
+            <input class="input-emeil" id="modal-form-email" type="email" />
+            <svg class="icon" width="18" height="24">
+              <use href="./img/sprite.svg#icon-email"></use>
+            </svg>
+          </div>
+        </div>
+        <button class="button modal-send-btn">Send</button>
+      </form>
+      <button class="close-btn" type="button" data-modal-close>
+        <svg class="icon" width="10" height="10">
+          <use href="./img/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
     </div>
-  
-    <!-- MODAL Overlay -->
-    <div class="modal-overlay is-hidden" data-modal>
-      <div class="modal">
-        <form class="modal-form">
-          <p class="paragraph-modal">Order Form</p>
-          <div class="thumb-form">
-            <label for="modal-form-name">Name</label>
-            <div class="input-icon">
-              <input id="modal-form-name" type="text">
-              <svg class="icon" width="18" height="18">
-                <use href="images/sprite.svg#icon-person"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="thumb-form">
-            <label for="modal-form-phone">Phone</label>
-            <div class="input-icon">
-              <input id="modal-form-phone" type="tel">
-              <svg class="icon" width="18" height="24">
-                <use href="images/sprite.svg#icon-phone"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="thumb-form">
-            <label for="modal-form-email">Email</label>
-            <div class="input-icon">
-              <input class="input-emeil" id="modal-form-email" type="email">
-              <svg class="icon" width="18" height="24">
-                <use href="images/sprite.svg#icon-email"></use>
-              </svg>
-            </div>
-          </div>
-          <button class="button modal-send-btn">Send</button>
-        </form>
-        <button class="close-btn" type="button" data-modal-close>
-          <svg class="icon" width="10" height="10">
-            <use href="images/sprite.svg#icon-close"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </footer>
+  </div>
+</footer>

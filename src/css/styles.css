@@ -6,6 +6,7 @@
 @import url('./customer.css');
 @import url('./subscribe.css');
 @import url('./footer.css');
+@import url('./modal.css');
 
 
 
@@ -17,8 +18,3 @@
   --extra-color: #7eb101;
   --form-text: #505050;
 }
-
-
-
-
-/* ---------------general------------ */
