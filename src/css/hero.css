@@ -187,11 +187,17 @@
     position: relative;
     max-width: 292px;
     max-height: 292px;
-    top: 150px;
     background: #fefefe;
     border: 14px solid var(--second-bg-color);
     border-radius: 50%;
+    top: 160px;
     overflow: hidden;
+  }
+
+  .slider {
+
+    top: 150px;
+
   }
 
   .btn-hero:hover {
@@ -222,5 +228,18 @@
     padding-top: 0;
   }
 
+}
 
+@media (min-width:1024px) {
+
+  .slider-img {
+    top: 100px;
+    position: relative;
+    max-width: 528px;
+    max-height: 528px;
+    background: #fefefe;
+    border: 26px solid var(--second-bg-color);
+    border-radius: 50%;
+    overflow: hidden;
+  }
 }

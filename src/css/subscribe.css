@@ -102,18 +102,12 @@
 @media (min-width:900px) {
 
   .mobile-banan {
-    min-width: 425px;
-    min-height: 186px;
+    max-width: 425px;
+    top: -60%;
   }
 }
 
 @media (min-width:1140px) {
-
-  .mobile-banan {
-    min-width: 608px;
-    min-height: 266px;
-    background-color: transparent;
-  }
 
   .subs-title {
     margin: 0;

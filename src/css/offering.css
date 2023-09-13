@@ -4,11 +4,13 @@
   background-size: cover;
   width: 100%;
   height: 100%;
-
-
 }
 
-.img_offering {
+.apple-tablet {
+  display: none;
+}
+
+.apple-tablet .img_offering {
   padding-top: 70px;
   display: flex;
   margin: auto;
@@ -96,6 +98,10 @@
 
 }
 
+.offering-titl {
+  padding-bottom: 15px;
+}
+
 .offering-list {
   padding-bottom: 28px;
 }
@@ -105,20 +111,11 @@
   padding-top: 8px;
 }
 
-@media (max-width:767.98px) {
-
-  .img_offering1,
-  .img_offering2,
-  .img_offering3 {
-    display: none;
-  }
-
-  .apple-tablet {
-    display: none;
-  }
-}
 
 @media (min-width:767.98px) {
+  .apple-tablet {
+    display: block;
+  }
 
   .offering-apfel {
     background-image: url(../img/tablet_img/bg-768.png);
@@ -126,8 +123,9 @@
     background-size: cover;
     width: 100%;
     height: auto;
-    min-width: 768px;
     min-height: 1140px;
+    margin-top: -100px;
+
   }
 
   .img_offering {
@@ -139,7 +137,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 100px;
+    padding-top: 90px;
   }
 
   .container-offering-apfel {
@@ -183,5 +181,59 @@
     padding-left: 24px;
     color: black;
     cursor: pointer;
+  }
+}
+
+@media (min-width:1024px) {
+  .title-hero {
+    color: var(--main-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+}
+
+@media (min-width:1280px) {
+
+  .apple-tablet {
+    display: none;
+  }
+
+  .offering-apfel {
+    background-image: url(/img/desktop_img/bg1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-width: 768px;
+    min-height: 1140px;
+    margin-top: -100px;
+  }
+
+  .img_offering {
+    display: block;
+    min-width: 396px;
+  }
+
+
+  .offering {
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    /* Выравнивание элементов по вертикали */
+  }
+
+  .img_offering {
+    flex: 0 0 auto;
+    /* Элемент изображения не растягивается и не сжимается */
+    margin-right: 74px;
+    /* Расстояние между изображением и остальным контентом */
+  }
+
+  .content-wrapper {
+    flex: 1;
+    /* Остальной контент растягивается, чтобы занять доступное пространство */
   }
 }

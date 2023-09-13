@@ -111,8 +111,7 @@
 @media (min-width:768px) and (max-width:1280px) {
 
   .mobile-banan {
-
-    width: 80%;
+    width: 60%;
   }
 
 }
@@ -120,7 +119,7 @@
 @media screen and (min-width:1280px) {
 
   .customersay {
-    background-image: url(./img/desktop_img/bg21280.png);
+    background-image: url(/img/desktop_img/bg21280.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 647px;
