@@ -43,10 +43,8 @@
 
 .mobile-banan {
   position: absolute;
-  left: 10%;
+  left: 25%;
   top: -30%;
-  min-width: 180px;
-  min-height: 78px;
   transition: max-width 0.5s, max-height 0.5s;
 }
 
@@ -59,16 +57,22 @@
   margin-top: 20px;
   padding: 11px 22px;
   margin-left: auto;
+}
 
+@media (min-width:425px) {
+  .mobile-banan {
+    left: 25%;
+    top: -30%;
+    min-width: 230px;
+  }
 }
 
 @media (min-width:768px) {
   .mobile-banan {
     max-width: 281px;
-    max-height: 136px;
     position: absolute;
-    top: -47%;
-    left: 55%;
+    top: -60%;
+    left: 65%;
   }
 
   .subs-title {
