@@ -76,7 +76,8 @@ button {
 .container {
   width: 100%;
   padding: 15px;
-  max-width: 1310px;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .link {
@@ -150,8 +151,8 @@ button {
   }
 }
 
-@media (min-width: 1310px) {
+@media (min-width: 1280px) {
   :root {
-    --container-width: 1310px;
+    --container-width: 1280px;
   }
 }
