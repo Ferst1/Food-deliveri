@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "parcel src/*.html",
     "dev": "vite",
     "build": "vite build --base=/Food-deliveri/",
     "preview": "vite preview"
+   
   },
   "devDependencies": {
     "vite": "^4.0.5",
