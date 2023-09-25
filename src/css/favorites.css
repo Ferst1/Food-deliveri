@@ -26,6 +26,13 @@
   height: 223px;
 }
 
+.food:hover,
+.food:focus {
+  box-shadow: 10px 5px 15px white;
+  scale: 1.1;
+  transition-duration: 2s;
+}
+
 .favorits-image {
   display: flow-root;
   justify-content: space-evenly;
@@ -104,14 +111,14 @@
 
 /* -------------------scroll-------------- */
 
-.favorites_title{
-  transform: translate(0px,120%);
+.favorites_title {
+  transform: translate(0px, 120%);
   opacity: 0;
   transition: all 0.8s ease 0s;
 }
 
- .active{
-  transform: translate(0px,0px);
+.active {
+  transform: translate(0px, 0px);
   opacity: 1;
 }
 
@@ -119,21 +126,22 @@
 
 
 .anim-show {
-	transform: translate(0px, 120%);
-	opacity: 0;
-	transition: all 0.8s ease 0s;
+  transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
 }
+
 .anim-show .active,
 .active .anim-show {
-	opacity: 1;
-	transform: translate(0px, 0px);
+  opacity: 1;
+  transform: translate(0px, 0px);
 
   .moments__item {
     flex: 0 1 25%;
     padding: 0px 20px;
     text-align: center;
   }
-  
+
   .moments__image {
     width: 200px;
     height: 200px;
@@ -145,6 +153,7 @@
     transform: scale(0);
     transition: all 0.8s ease 0s;
   }
+
   .moments__image img {
     position: absolute;
     width: 100%;
@@ -153,6 +162,7 @@
     left: 0;
     object-fit: cover;
   }
+
   .moments__text {
     font-size: 25px;
     line-height: 35px;
@@ -160,10 +170,11 @@
     opacity: 0;
     transition: all 0.3s ease 0s;
   }
-  
+
   .moments__item._active .moments__image {
     transform: scale(1);
   }
+
   .moments__item._active .moments__text {
     transform: translate(0px, 0px);
     opacity: 1;
